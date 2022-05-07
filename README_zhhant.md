@@ -1,8 +1,6 @@
 # blog-platform-django
 
 
-[繁體中文版 README.md | Traditional Chinese README.md]()
-
 這是一個透過Django框架所打造的寫作平台，同時也包含了常見的設交平台功能，例如按讚、追蹤、收藏以集通知功能。
 
 前端模板透過[Themeforest](https://themeforest.net/)所購入，即便我加了很多客製化的CSS，部份的前端程式碼將不會包括在這項專案中。
@@ -14,33 +12,33 @@
 ## 專案截圖
 
 - 首頁
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/home_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/home_zhhant.PNG)
 - 編輯器
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/editor_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/editor_zhhant.PNG)
 - 文章
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/article_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/article_zhhant.PNG)
 - 相關文章 & 留言
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/rel_comment_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/rel_comment_zhhant.PNG)
 - 搜尋
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/search_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/search_zhhant.PNG)
 - 作者簡介
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/profile_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/profile_zhhant.PNG)
 - 追蹤中
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/following_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/following_zhhant.PNG)
 - 通知
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/notification_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/notification_zhhant.PNG)
 - 時區 & 語言
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/loc_lang_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/loc_lang_zhhant.PNG)
 - 文章統計
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/stats_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/stats_zhhant.PNG)
 - 登入
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/login_zhhant.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/login_zhhant.PNG)
 - 透過第三方社群平台登入(Gmail)
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/gmail_auth.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/gmail_auth.PNG)
 - 加入Google Analytics
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ga.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/ga.PNG)
 - 透過 Celery and Redis 執行排程任務
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/celery.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/celery.PNG)
 
 ## 特色
 
@@ -90,7 +88,7 @@
 
 #### ERD(main models)
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ERD.png)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/ERD.png)
 
 
 ### 佈署
@@ -100,7 +98,7 @@
 
 ### 架構
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/structure.png)
+![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/structure.png)
 
 
 ## 前置作業
