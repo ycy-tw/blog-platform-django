@@ -5,7 +5,7 @@
 
 This is a writing platform built by Django framework. Beside the posting function, it also contains social media features, such as Like, Follow, Bookmark and Notification.
 
-Frontend template was purchased through [themeforest](https://themeforest.net/), even I added a lot of custom css, part of frontend code still won't include in this repo.
+Frontend template was purchased through [Themeforest](https://themeforest.net/), even I added a lot of custom css, part of frontend code still won't include in this repo.
 
 :link: [KnowsList](https://www.knowslist.com/) :point_left: View the live demo
 
@@ -89,7 +89,7 @@ Frontend template was purchased through [themeforest](https://themeforest.net/),
 
 #### ERD(main models)
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ERD.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ERD.png)
 
 
 ### Deployment
@@ -99,7 +99,7 @@ Frontend template was purchased through [themeforest](https://themeforest.net/),
 
 ### Structure
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/structure.PNG)
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/structure.png)
 
 
 ## Set up
