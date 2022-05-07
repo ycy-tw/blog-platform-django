@@ -1,0 +1,60 @@
+{% extends 'account/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block title %} | Login {% endblock title %}
+
+{% block content %}
+
+<h2 id="logo">
+    <a href="{% url 'article:home' %}">
+        <img src="{% static 'assets/imgs/theme/logo1.svg' %}" style="width: auto; height: 25px;">
+    </a>
+</h2>
+<h3 class="form-title">
+    {% translate 'LogIn' %}
+</h3>
+<br>
+
+<form method="post">
+
+    {% if form.non_field_errors or form.email.errors or form.password.errors %}
+    <div class="error-message">
+        {{ form.non_field_errors }}
+        {{ form.email.errors }}
+        {{ form.password.errors }}
+    </div>
+    {% endif %}
+
+    {% csrf_token %}
+
+    {{ form.email }}
+    {{ form.email.label_tag }}
+
+    {{ form.password }}
+    {{ form.password.label_tag }}
+
+    <input type="submit" class="client-info custom-btn" value="{% translate 'Login' %}">
+    <a class="clean-link" href="{% url 'account:register' %}">
+        <input type="button" class="client-info custom-btn" value="{% translate 'Sign Up' %}">
+    </a>
+
+    <a class="clean-link" href="{% url 'account:password_reset' %}">
+        <p class="form-text">{% translate 'Forgot password?' %}</p>
+    </a>
+    <hr>
+
+</form>
+<p class="form-text">{% translate 'Connect to Social Account' %}</p>
+<button class="social" id="google">
+    <div class="social-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+        </svg>
+    </div>
+    <div style="display: inline-block;">
+        <a class="custom-link" href="{% url 'social:begin' 'google-oauth2' %}">
+            <p class="social-text">{% translate 'Login with Google' %}</p>
+        </a>
+    </div>
+</button>
+{% endblock content %}

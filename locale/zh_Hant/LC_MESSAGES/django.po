@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-28 21:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\account\forms.py:20 .\account\forms.py:141
+msgid "Two passwords didn’t match."
+msgstr "兩個密碼不相同"
+
+#: .\account\forms.py:23
+msgid "New password"
+msgstr "新密碼"
+
+#: .\account\forms.py:30 .\account\forms.py:118
+msgid "Password confirmation"
+msgstr "確認密碼"
+
+#: .\account\forms.py:38 .\account\forms.py:54 .\account\forms.py:92
+msgid "Email"
+msgstr "電子信箱"
+
+#: .\account\forms.py:45
+msgid "You will receive password reset link."
+msgstr "您將會收到重設密碼的連結"
+
+#: .\account\forms.py:55
+msgid "Please enter email"
+msgstr "輸入電子信箱"
+
+#: .\account\forms.py:63 .\account\forms.py:110
+msgid "Password"
+msgstr "密碼"
+
+#: .\account\forms.py:64
+msgid "Please enter password"
+msgstr "請輸入密碼"
+
+#: .\account\forms.py:83
+msgid "Login failed, check email and password."
+msgstr "登入失敗，請確認信箱和密碼"
+
+#: .\account\forms.py:101
+#: .\article\templates\article\backend\user_edit_form.html:5
+msgid "Name"
+msgstr "名稱"
+
+#: .\account\forms.py:132
+msgid "Email already existed."
+msgstr "電子信箱已存在"
+
+#: .\account\models.py:79
+msgid "Tell me more about you."
+msgstr "我是誰呢?"
+
+#: .\account\templates\account\base.html:14
+#: .\article\templates\article\404.html:5
+#: .\article\templates\article\backend\backend.html:8
+#: .\article\templates\article\bookmarks\bookmarks.html:9
+#: .\article\templates\article\editor\editor.html:6
+#: .\article\templates\article\home\home.html:11
+#: .\article\templates\article\post\post.html:8
+#: .\article\templates\article\profile\profile.html:8
+#: .\article\templates\article\profile\profile.html:13
+#: .\article\templates\article\search.html:8
+#: .\article\templates\article\search.html:10
+#: .\article\templates\article\stats\stats.html:6
+msgid "KnowsList"
+msgstr "KnowsList | 分享資訊的寫作平台"
+
+#: .\account\templates\account\login.html:14
+msgid "LogIn"
+msgstr "登入"
+
+#: .\account\templates\account\login.html:36
+msgid "Login"
+msgstr "登入"
+
+#: .\account\templates\account\login.html:38
+#: .\account\templates\account\register.html:14
+msgid "Sign Up"
+msgstr "註冊"
+
+#: .\account\templates\account\login.html:42
+#: .\account\templates\account\register.html:51
+msgid "Forgot password?"
+msgstr "忘記密碼?"
+
+#: .\account\templates\account\login.html:47
+msgid "Connect to Social Account"
+msgstr "連結社群帳號登入"
+
+#: .\account\templates\account\login.html:56
+msgid "Login with Google"
+msgstr "透過Google登入"
+
+#: .\account\templates\account\password_reset.html:14
+#: .\account\templates\account\password_reset_complete.html:14
+#: .\account\templates\account\password_reset_confirm.html:14
+#: .\account\templates\account\password_reset_sent.html:14
+msgid "Reset password"
+msgstr "重設密碼"
+
+#: .\account\templates\account\password_reset.html:29
+msgid "Send"
+msgstr "寄送連結"
+
+#: .\account\templates\account\password_reset.html:33
+#: .\account\templates\account\register.html:46
+msgid "Back to login"
+msgstr "回到登入"
+
+#: .\account\templates\account\password_reset_complete.html:18
+msgid "Reset has been done."
+msgstr "重設完成"
+
+#: .\account\templates\account\password_reset_complete.html:22
+msgid "Log In"
+msgstr "登入"
+
+#: .\account\templates\account\password_reset_confirm.html:25
+msgid "Reset"
+msgstr "重設"
+
+#: .\account\templates\account\password_reset_email.html:3
+msgid "Please go to the following page and set a new password:"
+msgstr "請到以下連結重設密碼"
+
+#: .\account\templates\account\password_reset_email.html:7
+msgid "Thanks for your supporting"
+msgstr "感謝您的支持"
+
+#: .\account\templates\account\password_reset_email.html:9
+msgid "KnowsList Official"
+msgstr "KnowsList | 寫作平台"
+
+#: .\account\templates\account\password_reset_sent.html:19
+msgid "Reset Email already send."
+msgstr "重設密碼連結已寄出"
+
+#: .\account\templates\account\password_reset_sent.html:22
+msgid "Please Check your email."
+msgstr "請至信箱確認"
+
+#: .\account\templates\account\password_reset_sent.html:26
+msgid "Back to homepage"
+msgstr "回到首頁"
+
+#: .\account\templates\account\register.html:44
+msgid "Submit"
+msgstr "立刻註冊"
+
+#: .\article\context_processors.py:49
+msgid "You may like"
+msgstr "或許喜歡"
+
+#: .\article\context_processors.py:50
+msgid "Try some new"
+msgstr "嘗試看看"
+
+#: .\article\context_processors.py:51
+msgid "What is special"
+msgstr "新鮮題材"
+
+#: .\article\forms.py:19
+msgid "Leave your comment."
+msgstr "留言"
+
+#: .\article\forms.py:30 .\article\templates\article\search_form.html:8
+msgid "Search"
+msgstr "搜尋"
+
+#: .\article\forms.py:46
+msgid "Write Something..."
+msgstr "寫些什麼..."
+
+#: .\article\forms.py:76
+msgid "Description"
+msgstr "摘要"
+
+#: .\article\forms.py:77
+msgid "Cover Image"
+msgstr "封面圖"
+
+#: .\article\forms.py:78
+msgid "Tags"
+msgstr "標籤"
+
+#: .\article\forms.py:79 .\article\templates\article\stats\data_table.html:11
+msgid "Status"
+msgstr "狀態"
+
+#: .\article\forms.py:80 .\article\templates\article\stats\data_table.html:8
+msgid "Title"
+msgstr "標題"
+
+#: .\article\forms.py:84
+msgid "Write some intro for article."
+msgstr "替文章寫些介紹"
+
+#: .\article\forms.py:85
+msgid "Name a tag and press enter, up to five"
+msgstr "寫入tag並按下enter，最多5個"
+
+#: .\article\models.py:16
+msgid "slug"
+msgstr ""
+
+#: .\article\models.py:46
+msgid "Draft"
+msgstr "草稿"
+
+#: .\article\models.py:47
+msgid "Published"
+msgstr "公開"
+
+#: .\article\templates\article\404.html:9
+#: .\article\templates\article\home\home.html:13
+msgid "A wonderful writing platform for you."
+msgstr "來KnowsList盡情分享所知所聞，一個適合你的寫作平台"
+
+#: .\article\templates\article\404.html:19
+msgid "Not Found"
+msgstr "迷路了嗎?"
+
+#: .\article\templates\article\404.html:20
+msgid "The link you clicked may be broken or the page may have been removed."
+msgstr "您訪問的頁面可能已經移除"
+
+#: .\article\templates\article\404.html:21
+msgid "Visit the"
+msgstr "前往"
+
+#: .\article\templates\article\404.html:21
+msgid "Homepage"
+msgstr "首頁"
+
+#: .\article\templates\article\backend\backend.html:26
+#: .\article\templates\article\backend\backend.html:72
+msgid "Notification"
+msgstr "通知"
+
+#: .\article\templates\article\backend\backend.html:29
+#: .\article\templates\article\backend\backend.html:75
+msgid "Lang & Loc"
+msgstr "語言 & 地區"
+
+#: .\article\templates\article\backend\backend.html:32
+#: .\article\templates\article\backend\backend.html:78
+#: .\article\templates\article\popover.html:6
+msgid "Profile"
+msgstr "個人頁面"
+
+#: .\article\templates\article\backend\bookmark.html:15
+#: .\article\templates\article\bookmarks\bookmarks.html:64
+#: .\article\templates\article\home\featured_posts.html:56
+#: .\article\templates\article\home\featured_posts.html:93
+#: .\article\templates\article\home\featured_slider.html:27
+#: .\article\templates\article\home\posts.html:45
+#: .\article\templates\article\home\posts.html:92
+#: .\article\templates\article\home\posts.html:125
+#: .\article\templates\article\post\post.html:42
+#: .\article\templates\article\post\related_post.html:44
+#: .\article\templates\article\profile\author_posts.html:43
+#: .\article\templates\article\search.html:72
+#: .\article\templates\article\search.html:106
+#: .\article\templates\article\search.html:112
+#: .\article\templates\article\stats\data_table.html:9
+msgid "Views"
+msgstr "點閱"
+
+#: .\article\templates\article\backend\bookmark.html:15
+#: .\article\templates\article\bookmarks\bookmarks.html:65
+#: .\article\templates\article\home\featured_posts.html:57
+#: .\article\templates\article\home\featured_posts.html:94
+#: .\article\templates\article\home\featured_slider.html:26
+#: .\article\templates\article\home\posts.html:46
+#: .\article\templates\article\home\posts.html:93
+#: .\article\templates\article\home\posts.html:126
+#: .\article\templates\article\home\posts.html:156
+#: .\article\templates\article\post\comment.html:28
+#: .\article\templates\article\post\post.html:43
+#: .\article\templates\article\post\related_post.html:45
+#: .\article\templates\article\profile\author_posts.html:44
+#: .\article\templates\article\search.html:73
+msgid "ago"
+msgstr "前"
+
+#: .\article\templates\article\backend\language.html:10
+msgid "Language"
+msgstr "語言"
+
+#: .\article\templates\article\backend\language.html:20
+#: .\article\templates\article\backend\location.html:19
+msgid "Set"
+msgstr "設定"
+
+#: .\article\templates\article\backend\location.html:10
+msgid "Location"
+msgstr "地區"
+
+#: .\article\templates\article\backend\notification.html:24
+#: .\article\templates\article\notification.html:24
+msgid " ago"
+msgstr "前"
+
+#: .\article\templates\article\backend\user_edit_form.html:11
+msgid "Intro"
+msgstr "自介"
+
+#: .\article\templates\article\backend\user_edit_form.html:17
+msgid "Profile Image"
+msgstr "大頭貼"
+
+#: .\article\templates\article\backend\user_edit_form.html:20
+#: .\article\templates\article\editor\sidebar.html:12
+msgid "Upload"
+msgstr "上傳"
+
+#: .\article\templates\article\backend\user_edit_form.html:24
+#: .\article\templates\article\editor\sidebar.html:43
+msgid "Save"
+msgstr "儲存"
+
+#: .\article\templates\article\bookmarks\bookmarks.html:23
+#: .\article\templates\article\popover.html:8
+msgid "Bookmarks"
+msgstr "書籤"
+
+#: .\article\templates\article\editor\header2.html:15
+msgid "Publish"
+msgstr "發佈"
+
+#: .\article\templates\article\editor\header2.html:55
+#: .\article\templates\article\header.html:56
+msgid "Login | Register"
+msgstr "登入 | 註冊"
+
+#: .\article\templates\article\editor\sidebar.html:8
+msgid "Article Settings"
+msgstr "文章"
+
+#: .\article\templates\article\footer.html:8
+msgid "About KnowsList"
+msgstr "KnowsList | 分享資訊的寫作平台"
+
+#: .\article\templates\article\footer.html:12
+msgid ""
+"A wonderful writing platform for you. Provide our knowledge to the world."
+msgstr "來KnowsList盡情分享所知所聞，一個適合你的寫作平台"
+
+#: .\article\templates\article\footer.html:14
+msgid "Contact"
+msgstr "聯絡"
+
+#: .\article\templates\article\footer.html:17
+msgid "Related Links"
+msgstr "相關連結"
+
+#: .\article\templates\article\footer.html:27
+msgid "Feedback"
+msgstr "建議 & 回饋"
+
+#: .\article\templates\article\footer.html:31
+msgid "We care about user experience. Let us know your suggestions."
+msgstr "我們重視使用者的想法，有什麼建議或鼓勵嗎?"
+
+#: .\article\templates\article\footer.html:34
+msgid "Feedback Form"
+msgstr "建議表單"
+
+#: .\article\templates\article\home\featured_posts.html:9
+msgid "Featured posts"
+msgstr "特色文章"
+
+#: .\article\templates\article\home\featured_posts.html:12
+msgid "Hot tags"
+msgstr "標籤"
+
+#: .\article\templates\article\home\home.html:6
+msgid "KnowsList | An open writing platform."
+msgstr "KnowsList | 開放式寫作平台"
+
+#: .\article\templates\article\home\posts.html:11
+msgid "Hot Topic"
+msgstr "熱門主題"
+
+#: .\article\templates\article\home\posts.html:58
+msgid "Latest posts"
+msgstr "最新貼文"
+
+#: .\article\templates\article\home\posts.html:107
+msgid "Most popular"
+msgstr "熱門文章"
+
+#: .\article\templates\article\home\posts.html:142
+msgid "Last comments"
+msgstr "最新討論"
+
+#: .\article\templates\article\home\slogan.html:8
+msgid "Welcome to KnowsList"
+msgstr "歡迎來到 KnowsList"
+
+#: .\article\templates\article\home\slogan.html:9
+msgid "An open writing platform"
+msgstr "開放式寫作平台"
+
+#: .\article\templates\article\home\slogan.html:12
+msgid "Join Now"
+msgstr "立刻加入"
+
+#: .\article\templates\article\popover.html:5
+msgid "New Article"
+msgstr "新文章"
+
+#: .\article\templates\article\popover.html:7
+msgid "Stats"
+msgstr "文章統計"
+
+#: .\article\templates\article\popover.html:9
+msgid "Admin"
+msgstr "後台"
+
+#: .\article\templates\article\popover.html:13
+msgid "Logout"
+msgstr "登出"
+
+#: .\article\templates\article\popover.html:26
+msgid "See All"
+msgstr "查看全部"
+
+#: .\article\templates\article\post\comment.html:43
+msgid "Edit"
+msgstr "編輯"
+
+#: .\article\templates\article\post\comment.html:44
+msgid "Delete"
+msgstr "刪除"
+
+#: .\article\templates\article\post\comment_area.html:7
+#: .\article\templates\article\stats\data_table.html:10
+msgid "Comments"
+msgstr "留言"
+
+#: .\article\templates\article\post\comment_area.html:19
+msgid "New Comment"
+msgstr "留言"
+
+#: .\article\templates\article\post\comment_area.html:24
+msgid "Login and join"
+msgstr "登入留言"
+
+#: .\article\templates\article\post\comment_form.html:22
+msgid "Reply"
+msgstr "回覆"
+
+#: .\article\templates\article\post\delete_comment_warning.html:7
+msgid "Delete Comment"
+msgstr "刪除"
+
+#: .\article\templates\article\post\delete_comment_warning.html:11
+#: .\article\templates\article\stats\delete_warning.html:11
+msgid "It will gone forever, you sure?"
+msgstr "刪除後將無法回覆，確定嗎?"
+
+#: .\article\templates\article\post\delete_comment_warning.html:14
+#: .\article\templates\article\stats\delete_warning.html:14
+msgid "Delete it"
+msgstr "刪除"
+
+#: .\article\templates\article\post\delete_comment_warning.html:15
+#: .\article\templates\article\stats\delete_warning.html:15
+msgid "Keep it"
+msgstr "保留"
+
+#: .\article\templates\article\post\post.html:25
+msgid "Content"
+msgstr "大綱"
+
+#: .\article\templates\article\post\related_post.html:9
+msgid "Related posts"
+msgstr "相關貼文"
+
+#: .\article\templates\article\profile\author_posts.html:8
+msgid "Posted by"
+msgstr "文章 -"
+
+#: .\article\templates\article\profile\author_profile.html:23
+#: .\article\templates\article\profile\follower_list.html:6
+#: .\article\templates\article\profile\sidebar.html:23
+msgid "Follower"
+msgstr "粉絲"
+
+#: .\article\templates\article\profile\author_profile.html:29
+#: .\article\templates\article\profile\following_list.html:6
+#: .\article\templates\article\profile\sidebar.html:29
+msgid "Following"
+msgstr "追蹤"
+
+#: .\article\templates\article\profile\author_profile.html:35
+#: .\article\templates\article\profile\sidebar.html:35
+msgid "Articles"
+msgstr "文章"
+
+#: .\article\templates\article\profile\sidebar.html:56
+msgid "About author"
+msgstr "關於作者"
+
+#: .\article\templates\article\search.html:8
+#: .\article\templates\article\search.html:27
+msgid "Search results"
+msgstr "搜尋結果"
+
+#: .\article\templates\article\search.html:10
+#: .\article\templates\article\search.html:29
+msgid "Tags results"
+msgstr "標籤文章"
+
+#: .\article\templates\article\search.html:101
+msgid "Filter"
+msgstr "篩選"
+
+#: .\article\templates\article\search.html:105
+#: .\article\templates\article\search.html:111
+msgid "Latest"
+msgstr "最新"
+
+#: .\article\templates\article\search.html:107
+#: .\article\templates\article\search.html:113
+msgid "Popular"
+msgstr "熱門"
+
+#: .\article\templates\article\search_form.html:24
+msgid "Suggested keywords:"
+msgstr "熱門搜尋:"
+
+#: .\article\templates\article\stats\data_table.html:7
+msgid "Date"
+msgstr "日期"
+
+#: .\article\templates\article\stats\data_table.html:12
+msgid "Edit/Delete"
+msgstr "編輯/刪除"
+
+#: .\article\templates\article\stats\data_table.html:55
+msgid "Start your first article!"
+msgstr "開始我的第一篇文章!"
+
+#: .\article\templates\article\stats\delete_warning.html:7
+msgid "Delete Article"
+msgstr "刪除文章"
+
+#: .\article\views.py:143
+msgid "People learn and live."
+msgstr "人們不斷的學習和生活"
+
+#: .\article\views.py:144
+msgid "Come join us."
+msgstr "加入我們"
+
+#: .\article\views.py:145
+msgid "Share our knowledge."
+msgstr "分享所知所聞"
+
+#: .\blog\settings.py:157
+msgid "Traditional Chinese"
+msgstr "繁體中文"
+
+#: .\blog\settings.py:248
+msgid "Heading 1"
+msgstr "標題1"
+
+#: .\blog\settings.py:249
+msgid "Heading 2"
+msgstr "標題2"
+
+#: .\blog\settings.py:250
+msgid "Heading 3"
+msgstr "標題3"
+
+#: .\blog\settings.py:251
+msgid "Paragraph"
+msgstr "內文"
+
+#~ msgid "Result"
+#~ msgstr "搜尋結果"
+
+#~ msgid "Knowslist"
+#~ msgstr "KnowsList | 分享資訊的寫作平台"
+
+#~ msgid "What do you want to know?"
+#~ msgstr "想知道什麼?"
+
+#~ msgid "Sharing moves the world forward."
+#~ msgstr "分享並推動世界前進"
+
+#~ msgid "At least ten characters."
+#~ msgstr "至少十個字"
+
+#~ msgid "draft"
+#~ msgstr "草稿"
+
+#~ msgid "published"
+#~ msgstr "公開"
+
+#~ msgid "Login with Facebook"
+#~ msgstr "透過Facebook登入"
+
+#~ msgid "Up to five"
+#~ msgstr "最多五個"
+
+#~ msgid "No any bookmark now."
+#~ msgstr "尚無收藏文章"
+
+#~ msgid "Page:"
+#~ msgstr "頁數:"
+
+#~ msgid "Article"
+#~ msgstr "文章"
+
+#~ msgid "No article yet"
+#~ msgstr "尚無文章"
+
+#~ msgid "Likes"
+#~ msgstr "喜歡"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Do you want to delete this article forever?"
+#~ msgstr "您確定要永久刪除這篇文章嗎?"
+
+#~ msgid "No, Keep it."
+#~ msgstr "保留"
+
+#~ msgid "Delete it."
+#~ msgstr "刪除"
+
+#~ msgid "Greeting from Knowslist! Share your knowledge today."
+#~ msgstr "來自KnowsList的問候，一同分享你的知識吧!"
+
+#, python-format
+#~ msgid "%(username)s starts following you."
+#~ msgstr "%(username)s開始追蹤你"
+
+#~ msgid "tag"
+#~ msgstr "標籤"

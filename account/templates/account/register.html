@@ -1,0 +1,53 @@
+{% extends 'account/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block title %} Register | {% endblock title %}
+
+{% block content %}
+
+<h2 id="logo">
+    <a href="{% url 'article:home' %}">
+        <img src="{% static 'assets/imgs/theme/logo1.svg' %}" style="width: auto; height: 25px;">
+    </a>
+</h2>
+<h3 class="form-title">
+    {% translate 'Sign Up' %}
+</h3>
+<br>
+
+<form method="post">
+
+    {% if form.non_field_errors or form.email.errors or form.password1.errors or form.password2.errors %}
+    <div class="error-message">
+        {{ form.non_field_errors }}
+        {{ form.email.errors }}
+        {{ form.password1.errors }}
+        {{ form.password2.errors }}
+    </div>
+    {% endif %}
+
+
+    {% csrf_token %}
+
+    {{ form.email }}
+    {{ form.email.label_tag }}
+
+    {{ form.name }}
+    {{ form.name.label_tag }}
+
+    {{ form.password1 }}
+    {{ form.password1.label_tag }}
+
+    {{ form.password2 }}
+    {{ form.password2.label_tag }}
+
+    <input type="submit" class="client-info custom-btn" value="{% translate 'Submit' %}">
+    <a class="clean-link" href="{% url 'account:login' %}">
+        <input type="button" class="client-info custom-btn" value="{% translate 'Back to login' %}">
+    </a>
+</form>
+
+<a class="clean-link" href="{% url 'account:password_reset' %}">
+    <p class="form-text">{% translate 'Forgot password?' %}</p>
+</a>
+{% endblock content %}

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+
+  :root {
+    --main-color: #fff;
+    --second-color: #347deb;
+    --box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    --facebook-color: rgb(60, 90, 154);
+    --google-color: rgb(220, 74, 61);
+
+
+    --white: #fdfdfd;
+    --black: #212529;
+    --light-grey:#d6d6d6;
+    --light-grey2:#f3f3f3;
+    --light-grey3:#a5a4a4;
+    --light-grey4:#f0f0f0;
+
+    --main:#fc6b03;
+    --main2:#f77417;
+    --main3:#e7731f;
+    --main4:#e27628;
+    --ck-color-shadow-inner: initial;
+    --ck-focus-ring: initial;
+
+
+  }
+
+  html {
+    height: 100%;
+  }
+  body {
+    background: rgb(231, 231, 231);
+    font-family:'Noto Sans JP',sans-serif;font-weight:normal;font-style:normal;font-size:14px;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  .custom-link{
+    color:var(--google-color);
+    text-decoration: none;
+  }
+
+  .custom-link:hover{
+    color:var(--white);
+    text-decoration: none;
+  }
+
+  .clean-link{
+    text-decoration: none;
+  }
+
+  .clean-link:hover{
+    text-decoration: none;
+  }
+
+
+  #container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--main-color);
+    width: 800px;
+    height: 650px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: var(--box-shadow);
+    transition-duration: 1s;
+  }
+
+  #left {
+    margin: auto;
+    width: 95%;
+    height: 96%;
+    border-radius: 10px;
+  }
+
+  #right {
+    margin: auto;
+    width: 95%;
+    height: 96%;
+    border-radius: 10px;
+  }
+
+  #left {
+    background-image: url("/static/account/imgs/theme/login_1.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: var(--box-shadow);
+  }
+  #welcome, #lorem {
+    margin: 20px;
+    text-shadow: var(--box-shadow);
+  }
+  #welcome {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 240px;
+    text-shadow: var(--box-shadow);
+  }
+
+  .form-title {
+    padding-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: var(--box-shadow);
+  }
+  .client-info {
+    display: block;
+    margin: 15px auto;
+    width: 70%;
+    height: 50px;
+    border: solid #999 1px;
+    border-radius: 5px;
+    text-indent: 15px;
+    transition: all 200ms;
+    /* box-shadow: var(--box-shadow); */
+  }
+
+  label {
+    position: absolute;
+    margin: -76px 80px;
+    font-size: 12px;
+    white-space: nowrap;
+    background: #fff;
+    padding: 0 5px;
+    color: #999;
+    font-weight: normal;
+    transition: all 200ms;
+  }
+
+  .custom-btn {
+    border: none;
+    background-color: var(--main);
+    color: white;
+    width: 70%;
+  }
+
+
+  .custom-btn:hover {
+    background-color: var(--white);
+    border:1px solid var(--main);
+    color: var(--main);
+    font-weight: bold;
+  }
+
+  #logo {
+    text-align: right;
+    margin-top: 2%;
+}
+
+.form-text{
+    text-align: center;
+    margin-bottom: 0;
+    color:var(--light-grey3);
+    font-size: 0.9rem;
+}
+
+.reset-password{
+    margin-top: 15%;
+}
+
+.error-message {
+  background:var(--light-grey);
+  width: 70%;
+  margin: 15px auto 25px auto;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.error-message ul{
+  list-style-type: none;
+  margin-bottom:0;
+}
+
+
+
+  .social {
+    background-color: #fff;
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 200ms;
+    box-shadow: var(--box-shadow);
+    text-shadow: var(--box-shadow);
+    text-align:left;
+  }
+  .social-svg{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+  }
+  .social-text{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2%;
+  }
+  #facebook {
+    border: solid var(--facebook-color) 1px;
+    color: var(--facebook-color);
+  }
+  #facebook:hover {
+    background-color: var(--facebook-color);
+    color: white;
+  }
+  #google {
+    border: solid var(--google-color) 1px;
+    color: var(--google-color);
+  }
+  #google:hover {
+    background-color: var(--google-color);
+    color: white;
+  }
+
+  @media (max-width: 1250px) {
+
+    #container {
+      width: 600px;
+      display: block;
+    }
+
+    #left {
+      display: none;
+    }
+    #right {
+      margin-top: 10px;
+      background-image: url("/static/account/imgs/theme/login_3.jpg");
+      background-size: cover;
+      background-position: center;
+      box-shadow: var(--box-shadow);
+    }
+
+    form{
+      width: 100%;
+    }
+
+    label {
+      margin: -76px 130px;
+      border-radius: 20px;
+      border: 1px solid var(--light-grey);
+    }
+
+    .social{
+      width: 60%;
+    }
+
+    .client-info{
+      width: 60%;
+    }
+
+    .custom-btn{
+      width: 60%;
+    }
+
+    .form-text{
+      color: var(--black);
+    }
+
+    #logo img{
+      margin-right: 5%;
+      margin-top: 3%;
+      content: url("/static/account/imgs/theme/logo.svg");
+    }
+
+  }
+
+  /* @media (max-height: 850px) {
+
+    #container {
+      width: 1000px;
+      height: 600px;
+    }
+
+    form{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .form-title {
+      padding-top: 1%;
+    }
+    #welcome {
+      margin-top: 240px;
+      font-size: 60px;
+    }
+    #lorem {
+      font-size: 15px;
+    }
+
+    label {
+      margin: -76px 130px;
+      border-radius: 20px;
+      border: 1px solid var(--light-grey);
+    }
+
+    .social{
+      width: 60%;
+    }
+
+    .client-info{
+      width: 60%;
+    }
+
+    .custom-btn{
+      width: 60%;
+    }
+
+    .form-text{
+      color: var(--black);
+    }
+
+    #logo img{
+      margin-right: 5%;
+      margin-top: 3%;
+      content: url("/static/account/imgs/theme/logo.svg");
+    }
+
+  } */
+
+  @media only screen and (max-width: 600px) {
+    #container {
+      width: 400px;
+      height: 600px;
+    }
+
+    form{
+      width: 100%;
+    }
+
+    #right {
+      height: 92%;
+      width: 90%;
+      margin-top: 2%;
+    }
+
+    .social-text{
+      font-size: 0.8rem;
+    }
+
+    #logo {
+      text-align: center;
+    }
+
+    #logo img{
+      margin: 0;
+      margin-top: 5%;
+      content: url("/static/account/imgs/theme/logo.svg");
+    }
+
+    .client-info {
+      width: 70%;
+    }
+
+    .social {
+      width: 70%;
+    }
+
+    label {
+      margin: -76px 80px;
+    }
+
+  }
