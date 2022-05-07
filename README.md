@@ -13,33 +13,33 @@ Frontend template was purchased through [themeforest](https://themeforest.net/),
 ## Screenshots
 
 - Homepage
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/home_en.PNG)
 - Editor
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/editor_en.PNG)
 - Article
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/article_en.PNG)
 - Related Posts & Comment
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/rel_comment_en.PNG)
 - Search
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/search_en.PNG)
 - Profile
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/profile_en.PNG)
 - Following
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/following_en.PNG)
 - Notification
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/notification_en.PNG)
 - Loc & Lang
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/loc_lang_en.PNG)
 - Stats
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/stats_en.PNG)
 - Login
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/login_en.PNG)
 - Social Auth(Gmail)
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/gmail_auth.PNG)
 - Google Analytics embedded
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ga.PNG)
 - Routine Task by Celery and Redis
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/celery.PNG)
 
 ## Features
 
@@ -89,7 +89,7 @@ Frontend template was purchased through [themeforest](https://themeforest.net/),
 
 #### ERD(main models)
 
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ERD.PNG)
 
 
 ### Deployment
@@ -97,21 +97,21 @@ Frontend template was purchased through [themeforest](https://themeforest.net/),
 [Heroku](https://www.heroku.com/)
 
 
-### Infrastructure
+### Structure
 
-![]()
+![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/structure.PNG)
 
 
 ## Set up
 ### Build virtual environment
-```shell
+```
 virtaulenv env
 env\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### Django initial
-```shell
+```
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -134,13 +134,13 @@ heroku logs
 ```
 
 ### Translation
-```shell
+```
 python manage.py makemessages -l <language> -i env
 python manage.py compilemessages
 ```
 
 ### Create & load fixtures
-```shell
+```
 python manage.py dumpdata app.Model --indent 4 > fixtures/Model.json
 python manage.py loaddata fixtures/Model.json --app app.Model
 ```
