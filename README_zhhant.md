@@ -84,7 +84,7 @@
 - [Themeforest](https://themeforest.net/)
 
 ### 資料庫
-- PostgreSQL
+- [PostgreSQL](https://www.postgresql.org/)
 
 #### ERD(main models)
 
@@ -98,7 +98,7 @@
 
 ### 架構
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/structure.png)
+![](https://github.com/ycy-tw/blog-platform-django/blob/55c8137b00d3cbb822eb11bfd96a6d929e2e8f88/screenshots/structure.png)
 
 
 ## 前置作業

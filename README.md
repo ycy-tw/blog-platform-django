@@ -1,7 +1,7 @@
 # blog-platform-django
 
 
-[繁體中文版 README.md | Traditional Chinese README.md]()
+[繁體中文版 README.md | Traditional Chinese README.md](https://github.com/ycy-tw/blog-platform-django/blob/55c8137b00d3cbb822eb11bfd96a6d929e2e8f88/README_zhhant.md)
 
 This is a writing platform built by Django framework. Beside the posting function, it also contains social media features, such as Like, Follow, Bookmark and Notification.
 
@@ -85,7 +85,7 @@ Frontend template was purchased through [Themeforest](https://themeforest.net/),
 - [Themeforest](https://themeforest.net/)
 
 ### Database
-- PostgreSQL
+- [PostgreSQL](https://www.postgresql.org/)
 
 #### ERD(main models)
 
@@ -99,7 +99,7 @@ Frontend template was purchased through [Themeforest](https://themeforest.net/),
 
 ### Structure
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/structure.png)
+![](https://github.com/ycy-tw/blog-platform-django/blob/55c8137b00d3cbb822eb11bfd96a6d929e2e8f88/screenshots/structure.png)
 
 
 ## Set up
