@@ -13,33 +13,33 @@ Frontend template was purchased through [Themeforest](https://themeforest.net/),
 ## Screenshots
 
 - Homepage
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/home_en.PNG)
+![](./screenshots/home_en.PNG)
 - Editor
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/editor_en.PNG)
+![](./screenshots/editor_en.PNG)
 - Article
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/article_en.PNG)
+![](./screenshots/article_en.PNG)
 - Related Posts & Comment
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/rel_comment_en.PNG)
+![](./screenshots/rel_comment_en.PNG)
 - Search
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/search_en.PNG)
+![](./screenshots/search_en.PNG)
 - Profile
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/profile_en.PNG)
+![](./screenshots/profile_en.PNG)
 - Following
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/following_en.PNG)
+![](./screenshots/following_en.PNG)
 - Notification
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/notification_en.PNG)
+![](./screenshots/notification_en.PNG)
 - Loc & Lang
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/loc_lang_en.PNG)
+![](./screenshots/loc_lang_en.PNG)
 - Stats
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/stats_en.PNG)
+![](./screenshots/stats_en.PNG)
 - Login
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/login_en.PNG)
+![](./screenshots/login_en.PNG)
 - Social Auth(Gmail)
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/gmail_auth.PNG)
+![](./screenshots/gmail_auth.PNG)
 - Google Analytics embedded
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ga.PNG)
+![](./screenshots/ga.PNG)
 - Routine Task by Celery and Redis
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/celery.PNG)
+![](./screenshots/celery.PNG)
 
 ## Features
 
@@ -87,10 +87,6 @@ Frontend template was purchased through [Themeforest](https://themeforest.net/),
 ### Database
 - [PostgreSQL](https://www.postgresql.org/)
 
-#### ERD(main models)
-
-![](https://github.com/ycy-tw/blog-platform-django/blob/91d9370bc365353d02b71e53dbac52b4c4d0934e/screenshots/ERD.png)
-
 
 ### Deployment
 
@@ -99,7 +95,7 @@ Frontend template was purchased through [Themeforest](https://themeforest.net/),
 
 ### Structure
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/55c8137b00d3cbb822eb11bfd96a6d929e2e8f88/screenshots/structure.png)
+![](./screenshots/structure.png)
 
 
 ## Set up

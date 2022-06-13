@@ -12,33 +12,33 @@
 ## 專案截圖
 
 - 首頁
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/home_zhhant.PNG)
+![](./screenshots/home_zhhant.PNG)
 - 編輯器
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/editor_zhhant.PNG)
+![](./screenshots/editor_zhhant.PNG)
 - 文章
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/article_zhhant.PNG)
+![](./screenshots/article_zhhant.PNG)
 - 相關文章 & 留言
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/rel_comment_zhhant.PNG)
+![](./screenshots/rel_comment_zhhant.PNG)
 - 搜尋
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/search_zhhant.PNG)
+![](./screenshots/search_zhhant.PNG)
 - 作者簡介
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/profile_zhhant.PNG)
+![](./screenshots/profile_zhhant.PNG)
 - 追蹤中
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/following_zhhant.PNG)
+![](./screenshots/following_zhhant.PNG)
 - 通知
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/notification_zhhant.PNG)
+![](./screenshots/notification_zhhant.PNG)
 - 時區 & 語言
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/loc_lang_zhhant.PNG)
+![](./screenshots/loc_lang_zhhant.PNG)
 - 文章統計
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/stats_zhhant.PNG)
+![](./screenshots/stats_zhhant.PNG)
 - 登入
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/login_zhhant.PNG)
+![](./screenshots/login_zhhant.PNG)
 - 透過第三方社群平台登入(Gmail)
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/gmail_auth.PNG)
+![](./screenshots/gmail_auth.PNG)
 - 加入Google Analytics
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/ga.PNG)
+![](./screenshots/ga.PNG)
 - 透過 Celery and Redis 執行排程任務
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/celery.PNG)
+![](./screenshots/celery.PNG)
 
 ## 特色
 
@@ -86,11 +86,6 @@
 ### 資料庫
 - [PostgreSQL](https://www.postgresql.org/)
 
-#### ERD(main models)
-
-![](https://github.com/ycy-tw/blog-platform-django/blob/a94944b8d0500a786c21e2df289bdcd5ec8bbb22/screenshots/ERD.png)
-
-
 ### 佈署
 
 [Heroku](https://www.heroku.com/)
@@ -98,7 +93,7 @@
 
 ### 架構
 
-![](https://github.com/ycy-tw/blog-platform-django/blob/55c8137b00d3cbb822eb11bfd96a6d929e2e8f88/screenshots/structure.png)
+![](./screenshots/structure.png)
 
 
 ## 前置作業
